@@ -10,7 +10,7 @@ import os
 os.environ["OPENAI_API_KEY"] = "your-openai-api-key"
 
 # ---- 2. Load PDF ----
-loader = PyPDFLoader("sample.pdf")
+loader = PyPDFLoader("Remote Work Policy – 2025.pdf")
 pages = loader.load()
 
 # ---- 3. Chunk text ----
