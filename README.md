@@ -9,3 +9,5 @@ Extract insights from PDFs using LangChain and OpenAI in just 3 files. Perfect f
 
 ```bash
 pip install langchain openai pypdf
+
+> ⚠️ Note: This is a guide/demo repository. You must replace `"your-openai-api-key"` in `extractor.py` with your own OpenAI API key to run the script.
